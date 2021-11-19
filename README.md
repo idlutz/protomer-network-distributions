@@ -1,0 +1,2 @@
+# protomer-network-distributions
+A tool for predicting the output species distributions of promiscuously interacting monovalent protomer networks, from the user-provided interaction affinities (edge weights) and species concentrations. The concentration of a specific dimer species (or multiple dimer species) can then be converted to the binary output of the network computation (i.e. logic gate output).
