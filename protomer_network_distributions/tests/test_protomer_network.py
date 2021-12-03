@@ -5,7 +5,7 @@ import tellurium as te
 import unittest
 from protomer_network_distributions import protomer_network
 
-class Test_Mechanism(unittest.TestCase):
+class Test_protomer_network(unittest.TestCase):
 	"""Unit test for protomer_network class"""
 	def test___init___(self):
 		input_dict = {

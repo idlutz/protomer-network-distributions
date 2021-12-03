@@ -7,5 +7,5 @@ setup(
     author='Isaac Lutz',
     author_email='ilutz@uw.edu',
     packages=['protomer-network-distributions'],
-    install_requires=['numpy','pandas','tellurium','matplotlib','seaborn']
+    install_requires=['numpy','tellurium','matplotlib','seaborn']
 )
