@@ -18,8 +18,8 @@ class protomer_network():
 
     Attributes
     ----------
-    protomer_dict: dictionary of dimer species and their dissociation constants in the form str: float, e.g. 'AB': 10 * 10**-9
-                   Can optionally contain on rates in the form 'on_AB': 1 * 10**9
+    protomer_dict: dictionary of dimer species and their dissociation constants in the form str: float, e.g. 'A_B': 10 * 10**-9
+                   Can optionally contain on rates in the form 'on_A_B': 1 * 10**9
                    This dictionary at a minimum should contain the dissociation constants for every possible interaction between protomers that may be used
     simulations: recorded list of input subset protomer dictionaries for each simulation that is run
     simulation_distributions: recorded list of equilibrium distribution dictionaries for each simulation that is run
