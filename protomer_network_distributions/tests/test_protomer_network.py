@@ -14,10 +14,10 @@ class Test_protomer_network(unittest.TestCase):
 						'B_C':1*10**-9
 					 }
 
-	self.test_class = protomer_network(input_dict)
-	self.assertTrue(self.test_class.protomer_dict is not None)
-	self.assertTrue(self.test_class.simulations is not None)
-	self.assertTrue(self.test_class.simulation_distributions is not None)
+		self.test_class = protomer_network(input_dict)
+		self.assert(self.test_class.protomer_dict is not None)
+		self.assert(self.test_class.simulations is not None)
+		self.assert(self.test_class.simulation_distributions is not None)
 
 if __name__ == '__main__':
 	unittest.main()
